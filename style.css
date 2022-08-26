@@ -1,0 +1,145 @@
+body {
+    background-color: #2e2f74;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+/* ÜBERSCHRIFT auf */
+h1 {
+    padding: 15px;
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 46px;
+    padding-top: 0px;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.fa-solid {
+    color: gold;
+}
+
+h2 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/*Inputfeld auf */
+#inputField {
+    height: 45px;
+    width: 600px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    transition: 0.4s;
+    box-shadow: black 5px 5px 5px;
+}
+
+#inputField::placeholder {
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    text-align: start;
+    font-weight: bold;
+}
+
+#inputField:hover {
+    width: 650px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+/*Inputfeld zu */
+
+
+/* Button auf*/
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addButton {
+    margin-top: 32px;
+    height: 36px;
+    width: 85px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(63, 65, 180);
+    transition: 0.1s;
+}
+
+#addButton:hover {
+    cursor: pointer;
+}
+
+#addButton:active {
+    width: 75px;
+    height: 32px;
+    transition: 0.1s;
+    box-shadow: none;
+}
+
+
+.fa-circle-check {
+    color: gold;
+    font-size: 20px;
+}
+
+/* Button zu*/
+
+
+/* todo's auf*/
+
+#todo {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+    color: white;
+    font-weight: 400;
+}
+
+#todo:hover {
+    cursor: pointer;
+}
+
+#tasksToDo {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    margin-top: 25px;
+}
+
+
+
+
+
